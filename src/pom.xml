@@ -26,6 +26,7 @@
     </modules>
 
     <properties>
+        <version.spring.cloud.azure>5.2.0</version.spring.cloud.azure>
         <java.version>17</java.version>
         <assertj.version>3.17.1</assertj.version>
 
@@ -49,6 +50,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>com.azure.spring</groupId>
+                <artifactId>spring-cloud-azure-dependencies</artifactId>
+                <version>${version.spring.cloud.azure}</version>
+                <type>pom</type>
+           <scope>import</scope>
+         </dependency> 
             <dependency>
                 <groupId>de.codecentric</groupId>
                 <artifactId>chaos-monkey-spring-boot</artifactId>
