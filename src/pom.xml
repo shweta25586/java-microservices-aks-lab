@@ -23,6 +23,7 @@
         <module>spring-petclinic-config-server</module>
         <module>spring-petclinic-discovery-server</module>
         <module>spring-petclinic-api-gateway</module>
+        <module>spring-petclinic-messaging-emulator</module>
     </modules>
 
     <properties>
@@ -55,8 +56,8 @@
                 <artifactId>spring-cloud-azure-dependencies</artifactId>
                 <version>${version.spring.cloud.azure}</version>
                 <type>pom</type>
-           <scope>import</scope>
-         </dependency> 
+                <scope>import</scope>
+            </dependency> 
             <dependency>
                 <groupId>de.codecentric</groupId>
                 <artifactId>chaos-monkey-spring-boot</artifactId>
