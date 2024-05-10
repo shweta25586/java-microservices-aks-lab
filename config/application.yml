@@ -21,7 +21,7 @@ spring:
     servicebus:
       connection-string: ${spring.jms.servicebus.connectionstring}
       idle-timeout: 60000
-     # pricing-tier: premium
+      pricing-tier: premium
   sleuth:
     sampler:
       probability: 1.0
